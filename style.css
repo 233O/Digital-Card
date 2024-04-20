@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+    max-width: 400px;
+    background-color: #383737;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.card-header {
+    display:inline;
+    padding: 20px;
+    margin-left: 120px;
+    height: 250px;
+}
+
+.card-header img {
+    width: 125px; 
+    height: 125px; 
+    border-radius: 50%; /* Make the avatar round */
+    object-fit:contain; /* Ensure the image covers the entire area of the avatar */
+    border: 3px solid #fff; /* Add a white border around the avatar */
+    margin-top: 50px;
+}
+
+.header-info h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-weight: 400, 600, 700;
+
+}
+
+.header-info p {
+    margin-top: 0%;
+    margin-bottom: 5%;
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400, 600, 700;
+}
+
+.header-info h5 {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 400, 600, 700;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    display:inline;
+    width: 25%;
+
+}
+
+ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    
+    text-align: center;
+    
+}
+
+li {
+    margin-right: 0px;
+    padding: 10px;
+    border-style:inset;
+    border-radius: 30px;
+    
+}
+
+/*
+li:last-child {
+    margin-right: 0; /* Remove margin from the last list item 
+}*/
+
+li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration:none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+li a:active {
+    background-color: #555;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
